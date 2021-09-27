@@ -15,6 +15,7 @@ def getInput():
     userInput = userInput.lower()
     return userInput
 
+## This is a function to ask the name of and introduce the user
 def userIntroduction():
     userName = input("Hello, what is your name?")
     print("Hello", userName, "I am Moritz's bot")
